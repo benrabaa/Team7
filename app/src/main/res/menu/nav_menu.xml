@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Mohammed"
+            android:icon="@android:drawable/star_big_off"
+            android:title="Mohammed" />
+        <item
+            android:id="@+id/nav_Robert"
+            android:icon="@android:drawable/star_big_off"
+            android:title="Robert" />
+        <item
+            android:id="@+id/nav_Solomon"
+            android:icon="@android:drawable/star_big_off"
+            android:title="Solomon" />
+        <item
+            android:id="@+id/nav_Pilin"
+            android:icon="@android:drawable/star_big_off"
+            android:title="Pilin" />
+    </group>
+</menu>
