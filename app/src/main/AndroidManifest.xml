@@ -22,12 +22,6 @@
             android:label="@string/title_activity_pilin_profile"
             android:parentActivityName=".MainActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-  </activity>
-<activity>
-            android:name=".PilinActivity"
-            android:label="@string/title_activity_pilin"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme.NoActionBar">
 
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -39,12 +33,16 @@
             android:label="@string/title_activity_ben_profile"
             android:parentActivityName=".MainActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-  </activity>
-<activity>
-            android:name=".MohamedActivity"
-            android:label="@string/title_activity_mohamed"
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.pursuit.group_portfolio_hw_team_se7en.MainActivity" />
+        </activity>
+        <activity android:name=".SolomanActivity"
+            android:label="SolomanProfile"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
+
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="org.pursuit.group_portfolio_hw_team_se7en.MainActivity" />
@@ -54,21 +52,6 @@
             android:label="@string/title_activity_robert_profile"
             android:parentActivityName=".MainActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-</activity>
-<activity>
-            android:name=".SolomanActivity"
-            android:label="@string/title_activity_soloman"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme.NoActionBar">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.pursuit.group_portfolio_hw_team_se7en.MainActivity" />
-        </activity>
-        <activity
-            android:name=".RobertActivity"
-            android:label="@string/title_activity_robert"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="org.pursuit.group_portfolio_hw_team_se7en.MainActivity" />
