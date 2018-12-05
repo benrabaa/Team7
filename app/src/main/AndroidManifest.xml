@@ -8,13 +8,40 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/FakeNoActionBar_Blue">
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".PilinProfile"
+            android:label="@string/title_activity_pilin_profile"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.pursuit.group_portfolio_hw_team_se7en.MainActivity" />
+        </activity>
+        <activity
+            android:name=".BenProfile"
+            android:label="@string/title_activity_ben_profile"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.pursuit.group_portfolio_hw_team_se7en.MainActivity" />
+        </activity>
+        <activity
+            android:name=".RobertProfile"
+            android:label="@string/title_activity_robert_profile"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.pursuit.group_portfolio_hw_team_se7en.MainActivity" />
         </activity>
     </application>
 
