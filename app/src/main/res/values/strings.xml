@@ -3,4 +3,9 @@
     <string name="title_activity_pilin_profile">PilinProfile</string>
     <string name="title_activity_ben_profile">BenProfile</string>
     <string name="title_activity_robert_profile">RobertProfile</string>
+    <string name="title_activity_pilin">PilinActivity</string>
+    <string name="title_activity_mohamed">MohamedActivity</string>
+    <string name="title_activity_soloman">SolomanActivity</string>
+    <string name="title_activity_robert">RobertActivity</string>
+
 </resources>
