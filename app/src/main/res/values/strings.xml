@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Group_Portfolio_HW_TEAM_SE7EN</string>
+    <string name="title_activity_pilin">PilinActivity</string>
+    <string name="title_activity_mohamed">MohamedActivity</string>
+    <string name="title_activity_soloman">SolomanActivity</string>
+    <string name="title_activity_robert">RobertActivity</string>
 </resources>
