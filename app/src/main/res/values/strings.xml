@@ -7,5 +7,11 @@
     <string name="title_activity_mohamed">MohamedActivity</string>
     <string name="title_activity_soloman">SolomanActivity</string>
     <string name="title_activity_robert">RobertActivity</string>
+    <string name="project1">CTES</string>
+    <string name="project2">Bank-Teller</string>
+    <string name="project3">Mad-Libs</string>
+    <string name="bio">Hi I am Mohamed Ben I have a bachelor degree in Information Technology
+I chose to learn Android Mobile app development because I really love to see my imagination come to life, my plans are to be Android Mobile app development because I really love to see my imagination come to life. I chose to learn to web development and intend to work at a tech company because a stimulating workspace is crucial in order to get more experience in the short term and grow my skill set and try new things and learn from the best. Above all, l enjoy wearing multiple hats. With this kind of skills, knowledge, and experience, I can build my own computing/IT consulting Solutions company within a 5-7 year time frame. In the very long-term, I hope to earn a Ph.D. in Computer Science.
+</string>
 
 </resources>
