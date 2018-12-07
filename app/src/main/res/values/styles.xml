@@ -10,11 +10,13 @@
         <item name="android:actionBarStyle">@style/ThemeOverlay.AppCompat.ActionBar</item>
         <item name="android:windowActionBar">true</item>
     </style>
+
     <style name="ThemeOverlay.AppCompat.ActionBar." parent="Widget.AppCompat.Light.ActionBar.Solid">
         <item name="android:background">@null</item>
         <item name="background">@null</item>
 
     </style>
+
     <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
@@ -22,6 +24,7 @@
     <style name="FakeNoActionBar_Blue" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/primary_material_light_1</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#00c853</item>
     </style>
 
     <style name="AppTheme.NoActionBar">
@@ -30,7 +33,12 @@
     </style>
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="FakeNoActionBar_Blue.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="FakeNoActionBar_Blue.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 
 </resources>

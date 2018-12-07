@@ -2,9 +2,9 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_Mohammed"
+            android:id="@+id/nav_Mohamed"
             android:icon="@android:drawable/star_big_off"
-            android:title="Mohammed" />
+            android:title="Mohamed" />
         <item
             android:id="@+id/nav_Robert"
             android:icon="@android:drawable/star_big_off"

@@ -1,5 +1,6 @@
 package org.pursuit.group_portfolio_hw_team_se7en;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -16,15 +17,18 @@ public class RobertProfile extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab_rz);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                Intent email = new Intent(Intent.ACTION_SEND);
+                email.setType("text/email");
+                email.putExtra(Intent.EXTRA_EMAIL, new String[]{"robertzarate@pursuit.org"});
+                email.putExtra(Intent.EXTRA_SUBJECT, "Hello! I found your profile.");
+                email.putExtra(Intent.EXTRA_TEXT, "Dear Robert," + "");
+                startActivity(Intent.createChooser(email, "Send Feedback:"));
             }
         });
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
-
 }
