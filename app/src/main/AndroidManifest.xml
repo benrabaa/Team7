@@ -17,32 +17,19 @@
             </intent-filter>
         </activity>
         <activity
-
             android:name=".PilinProfile"
             android:label="@string/title_activity_pilin_profile"
             android:parentActivityName=".MainActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="org.pursuit.group_portfolio_hw_team_se7en.MainActivity" />
         </activity>
         <activity
-
             android:name=".BenProfile"
             android:label="@string/title_activity_ben_profile"
             android:parentActivityName=".MainActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.pursuit.group_portfolio_hw_team_se7en.MainActivity" />
-        </activity>
-        <activity android:name=".SolomanActivity"
-            android:label="SolomanProfile"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme.NoActionBar">
-
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="org.pursuit.group_portfolio_hw_team_se7en.MainActivity" />
@@ -52,6 +39,15 @@
             android:label="@string/title_activity_robert_profile"
             android:parentActivityName=".MainActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.pursuit.group_portfolio_hw_team_se7en.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SolomonProfile"
+            android:label="@string/title_activity_solomon_profile"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/FakeNoActionBar_Blue">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="org.pursuit.group_portfolio_hw_team_se7en.MainActivity" />
