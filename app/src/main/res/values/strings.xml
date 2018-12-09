@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Group_Portfolio_HW_TEAM_SE7EN</string>
+    <string name="app_name">SE7EN</string>
     <string name="title_activity_pilin_profile">PilinProfile</string>
     <string name="title_activity_ben_profile">BenProfile</string>
     <string name="title_activity_robert_profile">RobertProfile</string>
@@ -8,6 +8,7 @@
     <string name="title_activity_soloman">SolomanActivity</string>
     <string name="title_activity_robert">RobertActivity</string>
     <string name="title_activity_solomon_profile">SolomonProfile</string>
+    <string name="mission_statement">By efficiently leveraging time, skill and knowledge. SE7EN seeks to increase the needs of companies and organizations towards building sophisticated and robust mobile applications. </string>
 
 
     <string name="project1_ben">CTES</string>

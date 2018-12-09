@@ -7,7 +7,6 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.widget.Toolbar;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -50,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
                         break;
 
                     case R.id.nav_Solomon:
+
                         Intent solomonIntent = new Intent(getApplicationContext(), SolomonProfile.class);
                         startActivity(solomonIntent);
                         drawerLayout.closeDrawers();
