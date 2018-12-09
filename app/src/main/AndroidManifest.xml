@@ -44,7 +44,7 @@
                 android:value="org.pursuit.group_portfolio_hw_team_se7en.MainActivity" />
         </activity>
         <activity
-            android:name=".SolomanProfile"
+            android:name=".SolomonProfile"
             android:label="@string/title_activity_solomon_profile"
             android:parentActivityName=".MainActivity"
             android:theme="@style/FakeNoActionBar_Blue">

@@ -34,31 +34,32 @@ public class PilinProfile extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        Intent browserIntent;
-        switch (item.getItemId()){
-            case R.id.project1_pc:
-                Toast.makeText(this,"@string/project1_pc",Toast.LENGTH_SHORT).show();
-                browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/pillmatictm/Mad_Libs_Android.git"));
-                startActivity(browserIntent);
-                return true;
 
-            case R.id.project2_pc:
-                Toast.makeText(this,"@string/project2_pc",Toast.LENGTH_SHORT).show();
-                browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/pillmatictm/StringGame.git\n"));
-                startActivity(browserIntent);
-                return true;
+        @Override
+        public boolean onOptionsItemSelected(MenuItem item) {
+            Intent browserIntent;
+            switch (item.getItemId()){
+                case R.id.project1_pc:
+                    Toast.makeText(this,"@string/project1_pc",Toast.LENGTH_SHORT).show();
+                    browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/pillmatictm/Mad_Libs_Android.git"));
+                    startActivity(browserIntent);
+                    return true;
 
-            case R.id.project3_pc:
-                Toast.makeText(this,"@string/project3_pc",Toast.LENGTH_SHORT).show();
-                browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/pillmatictm/codelab4.2.git"));
-                startActivity(browserIntent);
-                return true;
+                case R.id.project2_pc:
+                    Toast.makeText(this,"@string/project2_pc",Toast.LENGTH_SHORT).show();
+                    browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/pillmatictm/StringGame.git\n"));
+                    startActivity(browserIntent);
+                    return true;
 
-            default:
-                return super.onOptionsItemSelected(item);
+                case R.id.project3_pc:
+                    Toast.makeText(this,"@string/project3_pc",Toast.LENGTH_SHORT).show();
+                    browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/pillmatictm/codelab4.2.git"));
+                    startActivity(browserIntent);
+                    return true;
+
+                default:
+                    return super.onOptionsItemSelected(item);
+            }
         }
     }
-}
 

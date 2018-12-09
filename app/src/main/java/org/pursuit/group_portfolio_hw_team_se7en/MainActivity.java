@@ -49,7 +49,8 @@ public class MainActivity extends AppCompatActivity {
                         break;
 
                     case R.id.nav_Solomon:
-                        Intent solomonIntent = new Intent(getApplicationContext(), SolomanProfile.class);
+
+                        Intent solomonIntent = new Intent(getApplicationContext(), SolomonProfile.class);
                         startActivity(solomonIntent);
                         drawerLayout.closeDrawers();
                         break;
