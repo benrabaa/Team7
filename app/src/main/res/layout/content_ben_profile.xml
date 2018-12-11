@@ -34,13 +34,13 @@
 
     <TextView
         android:id="@+id/textname_ben"
-        android:layout_width="150dp"
-        android:layout_height="43dp"
+        android:layout_width="147dp"
+        android:layout_height="37dp"
         android:layout_below="@id/circle_profile_ben"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="232dp"
-        android:text="Mohamed"
+        android:layout_marginBottom="276dp"
+        android:text="Mohamed\nAndroid Developer"
         android:textColor="@color/test"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -58,7 +58,6 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
         android:src="@drawable/profile_pic_ben"
         app:civ_border_color="#000000"
         app:civ_border_width="2dp"
@@ -85,7 +84,7 @@
         android:background="@drawable/github"
         app:layout_constraintBaseline_toBaselineOf="@+id/linkedIn_button_ben"
         app:layout_constraintEnd_toStartOf="@+id/linkedIn_button_ben"
-        app:layout_constraintHorizontal_bias="0.924"
+        app:layout_constraintHorizontal_bias="0.934"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -95,8 +94,8 @@
         android:layout_below="@+id/textview2_ben"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="76dp"
-        android:layout_marginBottom="240dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="308dp"
         android:layout_weight="1"
         android:background="@drawable/linkedin1"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -105,19 +104,24 @@
 
     <TextView
         android:id="@+id/textview2_ben"
-        android:layout_width="wrap_content"
-        android:layout_height="160dp"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
         android:layout_alignParentBottom="true"
-        android:textSize="18sp"
-        android:layout_marginBottom="72dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:padding="8dp"
         android:text="@string/bio_ben"
         android:textAlignment="textStart"
+        android:textSize="18sp"
         android:textStyle="bold"
-        android:padding="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textname_ben"
+        app:layout_constraintVertical_bias="0.0" />
 
 
 
