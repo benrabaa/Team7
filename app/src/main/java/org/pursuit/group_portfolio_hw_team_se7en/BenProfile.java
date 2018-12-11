@@ -52,17 +52,17 @@ public class BenProfile extends AppCompatActivity {
         Intent browserIntent;
         switch (item.getItemId()) {
             case R.id.project1_ben:
-                Toast.makeText(this, "@string/project1_ben", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "You will be taken to a GitHub repo", Toast.LENGTH_SHORT).show();
                 browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/benrabaa/CTES"));
                 startActivity(browserIntent);
                 return true;
             case R.id.project2_ben:
-                Toast.makeText(this, "@string/project2_ben", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "You will be taken to a GitHub repo", Toast.LENGTH_SHORT).show();
                 browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/benrabaa/Bank-Teller"));
                 startActivity(browserIntent);
                 return true;
             case R.id.project3_ben:
-                Toast.makeText(this, "@string/project3_ben", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "You will be taken to a GitHub repo", Toast.LENGTH_SHORT).show();
                 browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/benrabaa/Mad-Libs"));
                 startActivity(browserIntent);
                 return true;

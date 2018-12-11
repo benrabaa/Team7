@@ -49,17 +49,17 @@ public class RobertProfile extends AppCompatActivity {
         Intent browserIntent;
         switch (item.getItemId()) {
             case R.id.project1_rz:
-                Toast.makeText(this, "@string/project1_rz", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "You will be taken to a GitHub repo", Toast.LENGTH_SHORT).show();
                 browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/rzmorales/FirstGame"));
                 startActivity(browserIntent);
                 return true;
             case R.id.project2_rz:
-                Toast.makeText(this, "@string/project2_rz", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "You will be taken to a GitHub repo", Toast.LENGTH_SHORT).show();
                 browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/rzmorales/Java_Bank_Pursuit_Zarate-Morales_Robert"));
                 startActivity(browserIntent);
                 return true;
             case R.id.project3_rz:
-                Toast.makeText(this, "@string/project3_rz", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "You will be taken to a GitHub repo", Toast.LENGTH_SHORT).show();
                 browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/rzmorales/StoryApp"));
                 startActivity(browserIntent);
                 return true;
