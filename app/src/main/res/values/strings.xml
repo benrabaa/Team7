@@ -12,8 +12,8 @@
 
 
     <string name="project1_ben">CTES</string>
-    <string name="project2_ben">Bank-Teller</string>
-    <string name="project3_ben">Mad-Libs</string>
+    <string name="project2_ben">Bank Teller</string>
+    <string name="project3_ben">Mad Libs</string>
     <string name="bio_ben">Hi I am Mohamed Ben I have a bachelor degree in Information Technology
 I chose to learn Android Mobile app development because I really love to see my imagination come to life, my plans are to be Android Mobile app development because I really love to see my imagination come to life. I chose to learn to web development and intend to work at a tech company because a stimulating workspace is crucial in order to get more experience in the short term and grow my skill set and try new things and learn from the best. Above all, l enjoy wearing multiple hats. With this kind of skills, knowledge, and experience, I can build my own computing/IT consulting Solutions company within a 5-7 year time frame. In the very long-term, I hope to earn a Ph.D. in Computer Science.\n
 </string>
@@ -25,18 +25,18 @@ I chose to learn Android Mobile app development because I really love to see my 
     <string name="bio_sw">INSERT BIO HERE</string>
 
 
-    <string name="project1_rz">Choose-Your-Own-Adventure Game</string>
+    <string name="project1_rz">Choose-Your-Own-Adventure</string>
     <string name="project2_rz">Bank Teller</string>
-    <string name="project3_rz">Mad-Libs</string>
+    <string name="project3_rz">Mad Libs</string>
     <string name="bio_rz">Hi! My name is Robert. I have a background in Psychology but have always been fascinated by technology. I really like how it has been integrated into daily life and I want to become a mobile android developer because I want to make its usage more accessible to everyone. Also - I love languages and how it builds bridges. I want to apply the same concept to computer languages to build bridges between people and technology. I would like to eventually have an established career within the tech industry as a developer and product manager. On my spare time, I can often be found eating baby carrots and reading fun facts - for example: bananas are curved because they grow towards the sun.
 
 \nFun Fact about myself:
 \nI love beaches but hate sand.\n
 </string>
 
-    <string name="project1_pc">Mad-Libs</string>
-    <string name="project2_pc">Build-A-Hero Game|Java</string>
-    <string name="project3_pc">DroidCafe-Codelab4.2</string>
+    <string name="project1_pc">Mad Libs</string>
+    <string name="project2_pc">Build-A-Hero | JAVA</string>
+    <string name="project3_pc">DroidCafe CodeLab4.2</string>
     <string name="bio_pc">Hey y\’all! My name is Pilin Chong. I was born and bred in Queens! I am 24 years young. I have not yet completed my college education, but I used to major in Psychology and Philosophy, and I do intend to finish one day.  I am currently a fellow at Pursuit beginning my journey to becoming a mobile developer. I\’ve always had a love for technology and its impact on the advancement of society. Smartphones alone have revolutionized society in less than a decade with more than a billion users worldwide (and counting!) and becoming the portal to 60% of total internet traffic. We are all more connected and have more resources readily available to us than ever. With this rapid-growing, ever-changing market, I love the idea of challenging myself, being adaptive, and being able to create and share something that people all around the world can interact with. I believe coding will become an essential skill for those seeking success. These are some of the reasons I am drawn to becoming a developer.\n
 
 \nFun Facts &amp; Hobbies:
