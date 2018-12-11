@@ -8,14 +8,14 @@
     <string name="title_activity_soloman">SolomanActivity</string>
     <string name="title_activity_robert">RobertActivity</string>
     <string name="title_activity_solomon_profile">SolomonProfile</string>
-    <string name="mission_statement">By efficiently leveraging time, skill and knowledge. SE7EN seeks to increase the needs of companies and organizations towards building sophisticated and robust mobile applications. </string>
+    <string name="mission_statement">By efficiently leveraging time, skill and knowledge, SE7EN seeks to increase the needs of companies and organizations towards building sophisticated and robust mobile applications. </string>
 
 
     <string name="project1_ben">CTES</string>
-    <string name="project2_ben">Bank-Teller</string>
-    <string name="project3_ben">Mad-Libs</string>
+    <string name="project2_ben">Bank Teller</string>
+    <string name="project3_ben">Mad Libs</string>
     <string name="bio_ben">Hi I am Mohamed Ben I have a bachelor degree in Information Technology
-I chose to learn Android Mobile app development because I really love to see my imagination come to life, my plans are to be Android Mobile app development because I really love to see my imagination come to life. I chose to learn to web development and intend to work at a tech company because a stimulating workspace is crucial in order to get more experience in the short term and grow my skill set and try new things and learn from the best. Above all, l enjoy wearing multiple hats. With this kind of skills, knowledge, and experience, I can build my own computing/IT consulting Solutions company within a 5-7 year time frame. In the very long-term, I hope to earn a Ph.D. in Computer Science.
+I chose to learn Android Mobile app development because I really love to see my imagination come to life, my plans are to be Android Mobile app development because I really love to see my imagination come to life. I chose to learn to web development and intend to work at a tech company because a stimulating workspace is crucial in order to get more experience in the short term and grow my skill set and try new things and learn from the best. Above all, l enjoy wearing multiple hats. With this kind of skills, knowledge, and experience, I can build my own computing/IT consulting Solutions company within a 5-7 year time frame. In the very long-term, I hope to earn a Ph.D. in Computer Science.\n
 </string>
 
 
@@ -25,20 +25,36 @@ I chose to learn Android Mobile app development because I really love to see my 
     <string name="bio_sw">INSERT BIO HERE</string>
 
 
-    <string name="project1_rz">Choose-your-own-adventure Game</string>
+    <string name="project1_rz">Choose-Your-Own-Adventure</string>
     <string name="project2_rz">Bank Teller</string>
-    <string name="project3_rz">Mad-Libs</string>
+    <string name="project3_rz">Mad Libs</string>
     <string name="bio_rz">Hi! My name is Robert. I have a background in Psychology but have always been fascinated by technology. I really like how it has been integrated into daily life and I want to become a mobile android developer because I want to make its usage more accessible to everyone. Also - I love languages and how it builds bridges. I want to apply the same concept to computer languages to build bridges between people and technology. I would like to eventually have an established career within the tech industry as a developer and product manager. On my spare time, I can often be found eating baby carrots and reading fun facts - for example: bananas are curved because they grow towards the sun.
 
-Fun Fact about myself:
-I love beaches but hate sand.
+\nFun Fact about myself:
+\nI love beaches but hate sand.\n
 </string>
 
-
     <string name="project1_pc">Mad Libs</string>
-    <string name="project2_pc">String Game|Java</string>
-    <string name="project3_pc">DroidCafe-Codelab4.2</string>
-    <string name="bio_pc">INSERT BIO HERE</string>
+    <string name="project2_pc">Build-A-Hero | JAVA</string>
+    <string name="project3_pc">DroidCafe CodeLab4.2</string>
+    <string name="bio_pc">Hey y\’all! My name is Pilin Chong. I was born and bred in Queens! I am 24 years young. I have not yet completed my college education, but I used to major in Psychology and Philosophy, and I do intend to finish one day.  I am currently a fellow at Pursuit beginning my journey to becoming a mobile developer. I\’ve always had a love for technology and its impact on the advancement of society. Smartphones alone have revolutionized society in less than a decade with more than a billion users worldwide (and counting!) and becoming the portal to 60% of total internet traffic. We are all more connected and have more resources readily available to us than ever. With this rapid-growing, ever-changing market, I love the idea of challenging myself, being adaptive, and being able to create and share something that people all around the world can interact with. I believe coding will become an essential skill for those seeking success. These are some of the reasons I am drawn to becoming a developer.\n
+
+\nFun Facts &amp; Hobbies:
+\nI love video games! I became a gamer at age 3 when my father bought me a Nintendo 64, and I\’ve loved Nintendo ever since. I\’ve owned every Nintendo gaming console. Mortal Kombat 4, 007, Mario Party 2, StarFox 64, Diddy Kong Racing and Super Mario 64 were my first games and have since defined my love for games of similar genres.\n
+
+\nI’ve always had a great love for finance, investing and trading. As a child, for some reason I loved to watch MSNBC. I passed the National Financial Literacy Assessment Test in high school with a 98. I went from $10k to $68k in 30 days in our Mock Stock Market project. And to this day, I still pay close attention to Stocks, Commodities, Metals, NASDAQ, S&amp;P 500, Cryptocurrencies, and mostly ForEx.\n
+
+\nI love to swim. Honestly, I\’m not the best swimmer. I\’m no Michael Phelps.  But, just being the in the water brings me to a place of peace and elation. I blame it on being a Pisces!\n
+
+\nIf I could only eat one type of food for the rest of my life, it would have to be sushi. I LOVE SUSHI/SASHIMI!\n
+
+\nI (used to) play guitar and bass. Throughout elementary and middle school I was apart of the school band. I took on the role of lead guitar, until I learned violin, which lead to me becoming the bassist in the school elite ensemble.\n
+
+\nI love to dance. I was always avid and up-to-date with the latest and up-and-coming dance crazes. I participated in my elementary/middle school\’s annual dance festival. In high school, along with winning my school\’s version of America\’s Best Dance Crew in the solo division, I was a member of a non-profit organization CityKids where we created and performed songs (I have a deep speaking voice, but range is key. I used to sing soprano), skits and choreography. In hopes to inspire our peers, we were touring high schools throughout the NYC area, shooting music videos and performing alongside up-and-coming celebrities (Justin Bieber, Demi Lovato, Cody Simpson, Trevor Jackson just to drop a few names xP) at events like the US Open.\n
+
+\nI\’m very much into customization. I love to design cases for my devices. The show Pimp My Ride used to be my favorite, and, steered me in to direction of the low-rider culture popular in the south. I hope to do something similar to my all my cars when I have the financial freedom to do so. That also translates into my taste in music, as I also make Chopped &amp; Screwed versions of some of my favorite songs. I also create step-files for Dance Dance Revolution to more current, popular songs and a few of my personal favorites.\n
+
+</string>
 
 
 </resources>

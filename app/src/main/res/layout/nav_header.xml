@@ -8,6 +8,6 @@
         android:id="@+id/team7_naruto_header"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/team_se7en_project_header" />
+        android:src="@drawable/se7en_logo" />
 
 </android.support.constraint.ConstraintLayout>
