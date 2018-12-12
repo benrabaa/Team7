@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,5 +8,122 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".BenProfile"
     tools:showIn="@layout/activity_ben_profile">
+
+
+    <com.github.florent37.diagonallayout.DiagonalLayout
+        android:id="@+id/diagonalLayout_ben"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:fadingEdge="vertical"
+        app:diagonal_angle="20"
+        app:diagonal_gravity="right|bottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView_ben"
+            android:layout_width="match_parent"
+            android:layout_height="239dp"
+            android:background="@android:color/white"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cover_pic_ben" />
+
+    </com.github.florent37.diagonallayout.DiagonalLayout>
+
+    <TextView
+        android:id="@+id/textname_ben"
+        android:layout_width="147dp"
+        android:layout_height="37dp"
+        android:layout_below="@id/circle_profile_ben"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="276dp"
+        android:text="Mohamed\nAndroid Developer"
+        android:textColor="@color/test"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circle_profile_ben"
+        android:layout_width="159dp"
+        android:layout_height="157dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/profile_pic_ben"
+        app:civ_border_color="#000000"
+        app:civ_border_width="2dp"
+        app:layout_constraintBottom_toTopOf="@id/textname_ben"
+        app:layout_constraintEnd_toEndOf="@id/diagonalLayout_ben"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/diagonalLayout_ben"
+        app:layout_constraintVertical_bias="1.0"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+
+    <Button
+        android:id="@+id/git_button_ben"
+        android:layout_width="51dp"
+        android:layout_height="56dp"
+        android:layout_below="@+id/textview2_ben"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="start"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="7dp"
+        android:background="@drawable/github"
+        app:layout_constraintBaseline_toBaselineOf="@+id/linkedIn_button_ben"
+        app:layout_constraintEnd_toStartOf="@+id/linkedIn_button_ben"
+        app:layout_constraintHorizontal_bias="0.934"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/linkedIn_button_ben"
+        android:layout_width="49dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/textview2_ben"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="308dp"
+        android:layout_weight="1"
+        android:background="@drawable/linkedin1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textview2_ben"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:padding="8dp"
+        android:text="@string/bio_ben"
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textname_ben"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+
 
 </android.support.constraint.ConstraintLayout>

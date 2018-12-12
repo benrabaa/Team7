@@ -7,8 +7,12 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ImageButton;
+import android.widget.PopupMenu;
 import android.widget.Toast;
 
 public class BenProfile extends AppCompatActivity {
@@ -20,34 +24,45 @@ public class BenProfile extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab_ben);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                Intent email = new Intent(Intent.ACTION_SEND);
+                email.setType("text/email");
+                email.putExtra(Intent.EXTRA_EMAIL, new String[]{"mohamedrabaa@pursuit.org"});
+                email.putExtra(Intent.EXTRA_SUBJECT, "Hello! I found your profile.");
+                email.putExtra(Intent.EXTRA_TEXT, "Dear Mohamed," + "");
+                startActivity(Intent.createChooser(email, "Send Feedback:"));
             }
         });
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater menuInflater = getMenuInflater();
+        menuInflater.inflate(R.menu.picker_ben, menu);
+        return true;
+    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         Intent browserIntent;
-        switch (item.getItemId()){
-            case R.id.project1:
-                Toast.makeText(this,"@string/project1",Toast.LENGTH_SHORT).show();
+        switch (item.getItemId()) {
+            case R.id.project1_ben:
+                Toast.makeText(this, "You will be taken to a GitHub repo", Toast.LENGTH_SHORT).show();
                 browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/benrabaa/CTES"));
                 startActivity(browserIntent);
                 return true;
-            case R.id.project2:
-                Toast.makeText(this,"@string/project2",Toast.LENGTH_LONG).show();
+            case R.id.project2_ben:
+                Toast.makeText(this, "You will be taken to a GitHub repo", Toast.LENGTH_SHORT).show();
                 browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/benrabaa/Bank-Teller"));
                 startActivity(browserIntent);
                 return true;
-            case R.id.project3:
-                Toast.makeText(this,"@string/project3",Toast.LENGTH_LONG).show();
+            case R.id.project3_ben:
+                Toast.makeText(this, "You will be taken to a GitHub repo", Toast.LENGTH_SHORT).show();
                 browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/benrabaa/Mad-Libs"));
                 startActivity(browserIntent);
                 return true;
@@ -56,7 +71,5 @@ public class BenProfile extends AppCompatActivity {
                 return super.onOptionsItemSelected(item);
 
         }
-
     }
-
 }
