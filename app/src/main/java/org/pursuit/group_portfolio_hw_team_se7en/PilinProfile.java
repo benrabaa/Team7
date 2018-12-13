@@ -39,28 +39,29 @@ public class PilinProfile extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater menuInflater = getMenuInflater();
-        menuInflater.inflate(R.menu.picker_pc, menu);
+        menuInflater.inflate(R.menu.popup_pc, menu);
         return true;
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         Intent browserIntent;
+        String toastMsg = "You will be taken to a GitHub repo";
         switch (item.getItemId()) {
             case R.id.project1_pc:
-                Toast.makeText(this, "You will be taken to a GitHub repo", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, toastMsg, Toast.LENGTH_SHORT).show();
                 browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/pillmatictm/Mad_Libs_Android.git"));
                 startActivity(browserIntent);
                 return true;
 
             case R.id.project2_pc:
-                Toast.makeText(this, "You will be taken to a GitHub repo", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, toastMsg, Toast.LENGTH_SHORT).show();
                 browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/pillmatictm/StringGame.git\n"));
                 startActivity(browserIntent);
                 return true;
 
             case R.id.project3_pc:
-                Toast.makeText(this, "You will be taken to a GitHub repo", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, toastMsg, Toast.LENGTH_SHORT).show();
                 browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/pillmatictm/codelab4.2.git"));
                 startActivity(browserIntent);
                 return true;

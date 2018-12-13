@@ -58,7 +58,7 @@
                         android:layout_marginTop="1dp"
                         android:gravity="center"
                         android:padding="8dp"
-                        android:text="WE DESIGN &amp; DEVELOP \n STUNNING MOBILE APPS"
+                        android:text="@string/newsTitle_text"
                         android:textAlignment="center"
                         android:textColor="?android:textColorSecondary" />
 
@@ -138,7 +138,7 @@
                         android:layout_height="wrap_content"
                         android:layout_below="@id/teamImage"
                         android:padding="16dp"
-                        android:text=" We brought together smart, talented thinkers and unleashed their combined creativity on the world." />
+                        android:text="@string/teamStatement_text" />
 
                     <ImageView
                         android:id="@+id/groupImage"
@@ -188,7 +188,7 @@
                         android:layout_height="wrap_content"
                         android:layout_below="@id/contactus"
                         android:padding="16dp"
-                        android:text="HEADQUARTER \n 1123 Main street 10th Floor \n New York, NY 11111 \n Telephone:+1 1112223333" />
+                        android:text="@string/contactUs_text" />
 
                     <TextView
                         android:id="@+id/copyRight"
@@ -203,7 +203,7 @@
                         android:layout_marginTop="0dp"
                         android:layout_marginEnd="80dp"
                         android:padding="16dp"
-                        android:text=" Seven Mobile Development © Copyright 2018-2019"
+                        android:text="@string/copyright_text"
                         android:textAlignment="center"
                         android:textSize="10sp" />
 
