@@ -57,8 +57,8 @@ I love beaches but hate sand.
 </string>
     <string name="ben_fullName_text">Mohamed Ben Android Developer</string>
     <string name="newsTitle_text"><![CDATA[WE DESIGN & DEVELOP   STUNNING MOBILE APPS]]></string>
-    <string name="copyright_text">Seven Mobile Development © Copyright 2018-2019</string>
-    <string name="contactUs_text">HEADQUARTERS   1123 Main street 11th Floor   New York, NY 11111   Telephone:+1 1112223333</string>
+    <string name="copyright_text">Seven Mobile Development © Copyright 2018–2019</string>
+    <string name="contactUs_text">HEADQUARTERS\n1123 Main street\n11th Floor\nNew York, NY 11111\nTel: +1 2125551234</string>
     <string name="teamStatement_text">We brought together smart, talented thinkers and unleashed their combined creativity on the world.</string>
     <string name="solomon_text">Under Construction  ⚠️</string>
 
