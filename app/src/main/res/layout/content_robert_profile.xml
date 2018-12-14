@@ -124,8 +124,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.254"
-                app:layout_constraintStart_toStartOf="parent"
-                tools:text="jshdkjhdsakhdkasjhdksajhdkjsahdkjsahdksahdjksadas" />
+                app:layout_constraintStart_toStartOf="parent"/>
         </ScrollView>
     </android.support.design.card.MaterialCardView>
 </android.support.constraint.ConstraintLayout>
