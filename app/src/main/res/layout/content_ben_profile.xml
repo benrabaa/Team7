@@ -9,117 +9,127 @@
     tools:context=".BenProfile"
     tools:showIn="@layout/activity_ben_profile">
 
-
-    <com.github.florent37.diagonallayout.DiagonalLayout
-        android:id="@+id/diagonalLayout_ben"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:elevation="10dp"
-        android:fadingEdge="vertical"
-        app:diagonal_angle="20"
-        app:diagonal_gravity="right|bottom"
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="170dp"
+        android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <ImageView
-            android:id="@+id/imageView_ben"
-            android:layout_width="match_parent"
-            android:layout_height="239dp"
-            android:background="@android:color/white"
-            android:scaleType="centerCrop"
-            android:src="@drawable/cover_pic_ben" />
-
-    </com.github.florent37.diagonallayout.DiagonalLayout>
-
-    <TextView
-        android:id="@+id/textname_ben"
-        android:layout_width="150dp"
-        android:layout_height="43dp"
-        android:layout_below="@id/circle_profile_ben"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="232dp"
-        android:text="Mohamed"
-        android:textColor="@color/test"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.041"
-        app:layout_constraintStart_toStartOf="parent" />
-
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cover_pic_ben" />
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/circle_profile_ben"
-        android:layout_width="159dp"
-        android:layout_height="157dp"
+        android:layout_width="141dp"
+        android:layout_height="131dp"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="96dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:src="@drawable/profile_pic_ben"
-        app:civ_border_color="#000000"
+        app:civ_border_color="#ffffff"
         app:civ_border_width="2dp"
-        app:layout_constraintBottom_toTopOf="@id/textname_ben"
-        app:layout_constraintEnd_toEndOf="@id/diagonalLayout_ben"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintBottom_toTopOf="@+id/textname_ben"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/diagonalLayout_ben"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@tools:sample/backgrounds/scenic" />
 
+    <TextView
+        android:id="@+id/textname_ben"
+        android:layout_width="127dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/circle_profile_ben"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="sans-serif"
+        android:lines="2"
+        android:text="@string/ben_fullName_text"
+        android:textAlignment="center"
+        android:textColor="@color/test"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/circle_profile_ben"
+        app:layout_constraintStart_toEndOf="@+id/circle_profile_ben"
+        app:layout_constraintTop_toBottomOf="@+id/circle_profile_ben" />
 
     <Button
         android:id="@+id/git_button_ben"
-        android:layout_width="51dp"
-        android:layout_height="56dp"
-        android:layout_below="@+id/textview2_ben"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/textname_ben"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_gravity="start"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="7dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="8dp"
         android:background="@drawable/github"
-        app:layout_constraintBaseline_toBaselineOf="@+id/linkedIn_button_ben"
+        app:layout_constraintBottom_toTopOf="@+id/scroll_card"
         app:layout_constraintEnd_toStartOf="@+id/linkedIn_button_ben"
-        app:layout_constraintHorizontal_bias="0.924"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textname_ben"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/linkedIn_button_ben"
-        android:layout_width="49dp"
-        android:layout_height="57dp"
-        android:layout_below="@+id/textview2_ben"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/textname_ben"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="76dp"
-        android:layout_marginBottom="240dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
         android:layout_weight="1"
         android:background="@drawable/linkedin1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintBottom_toTopOf="@+id/scroll_card"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/git_button_ben"
+        app:layout_constraintTop_toBottomOf="@+id/textname_ben"
+        app:layout_constraintVertical_bias="0.0" />
 
-
-    <TextView
-        android:id="@+id/textview2_ben"
-        android:layout_width="wrap_content"
-        android:layout_height="160dp"
-        android:layout_alignParentBottom="true"
-        android:textSize="18sp"
-        android:layout_marginBottom="72dp"
-        android:text="@string/bio_ben"
-        android:textAlignment="textStart"
-        android:textStyle="bold"
-        android:padding="8dp"
+    <android.support.design.card.MaterialCardView
+        android:id="@+id/scroll_card"
+        android:layout_width="0dp"
+        android:layout_height="235dp"
+        android:layout_margin="8dp"
+        android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textname_ben">
 
+        <ScrollView
+            android:id="@+id/scrollView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
 
-
-
+            <TextView
+                android:id="@+id/textview2_ben"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:padding="8dp"
+                android:text="@string/bio_ben"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.254"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:text="jshdkjhdsakhdkasjhdksajhdkjsahdkjsahdksahdjksadas" />
+        </ScrollView>
+    </android.support.design.card.MaterialCardView>
 </android.support.constraint.ConstraintLayout>

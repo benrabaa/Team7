@@ -4,9 +4,10 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
@@ -36,21 +37,29 @@ public class RobertProfile extends AppCompatActivity {
     }
 
     @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater menuInflater = getMenuInflater();
+        menuInflater.inflate(R.menu.popup_rz, menu);
+        return true;
+    }
+
+    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         Intent browserIntent;
+        String toastMsg = "You will be taken to a GitHub repo";
         switch (item.getItemId()) {
             case R.id.project1_rz:
-                Toast.makeText(this, "@string/project1_rz", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, toastMsg, Toast.LENGTH_SHORT).show();
                 browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/rzmorales/FirstGame"));
                 startActivity(browserIntent);
                 return true;
             case R.id.project2_rz:
-                Toast.makeText(this, "@string/project2_rz", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, toastMsg, Toast.LENGTH_SHORT).show();
                 browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/rzmorales/Java_Bank_Pursuit_Zarate-Morales_Robert"));
                 startActivity(browserIntent);
                 return true;
             case R.id.project3_rz:
-                Toast.makeText(this, "@string/project3_rz", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, toastMsg, Toast.LENGTH_SHORT).show();
                 browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/rzmorales/StoryApp"));
                 startActivity(browserIntent);
                 return true;
