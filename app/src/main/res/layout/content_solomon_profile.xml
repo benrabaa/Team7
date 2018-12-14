@@ -8,4 +8,16 @@
     tools:context=".SolomonProfile"
     tools:showIn="@layout/activity_solomon_profile">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:text="Under Construction ⚠️"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="247dp" />
+
 </android.support.constraint.ConstraintLayout>

@@ -48,7 +48,7 @@
         android:layout_marginEnd="8dp"
         android:fontFamily="sans-serif"
         android:lines="2"
-        android:text="Mohamed Ben \n developer"
+        android:text="@string/ben_fullName_text"
         android:textAlignment="center"
         android:textColor="@color/test"
         android:textSize="10sp"
