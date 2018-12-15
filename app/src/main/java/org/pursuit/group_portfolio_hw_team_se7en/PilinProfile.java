@@ -70,5 +70,20 @@ public class PilinProfile extends AppCompatActivity {
                 return super.onOptionsItemSelected(item);
         }
     }
+
+    public void gitButtonPC(View view) {
+            Uri gitUri = Uri.parse("https://github.com/pillmatictm");
+            Intent intent = new Intent(Intent.ACTION_VIEW, gitUri);
+            startActivity(intent);
+    }
+
+    public void linkedButtonPC(View view) {
+        Uri gitUri = Uri.parse("https://www.linkedin.com/in/pilin-chong-191702174/");
+        Intent intent = new Intent(Intent.ACTION_VIEW, gitUri);
+        startActivity(intent);
+    }
+
+
+
 }
 

@@ -10,6 +10,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 public class BenProfile extends AppCompatActivity {
@@ -36,6 +37,7 @@ public class BenProfile extends AppCompatActivity {
         });
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -69,5 +71,17 @@ public class BenProfile extends AppCompatActivity {
                 return super.onOptionsItemSelected(item);
 
         }
+    }
+
+    public void gitButtonBen(View view) {
+        Uri gitUri = Uri.parse("https://github.com/benrabaa");
+        Intent intent = new Intent(Intent.ACTION_VIEW, gitUri);
+        startActivity(intent);
+    }
+
+    public void linkedButtonBen(View view) {
+        Uri gitUri = Uri.parse("https://www.linkedin.com/in/mohamed-benrabaa-54495376/");
+        Intent intent = new Intent(Intent.ACTION_VIEW, gitUri);
+        startActivity(intent);
     }
 }
