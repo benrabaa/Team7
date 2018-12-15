@@ -55,12 +55,16 @@
 \nI\’m very much into customization. I love to design cases for my devices. The show Pimp My Ride used to be my favorite, and, steered me in to direction of the low-rider culture popular in the south. I hope to do something similar to my all my cars when I have the financial freedom to do so. That also translates into my taste in music, as I also make Chopped &amp; Screwed versions of some of my favorite songs. I also create step-files for Dance Dance Revolution to more current, popular songs and a few of my personal favorites.\n
 
 </string>
-    <string name="ben_fullName_text">Mohamed Ben Android Developer</string>
+    <string name="ben_fullName_text">Mohamed Ben \nAndroid Developer</string>
     <string name="newsTitle_text"><![CDATA[WE DESIGN & DEVELOP   STUNNING MOBILE APPS]]></string>
     <string name="copyright_text">Seven Mobile Development © Copyright 2018–2019</string>
     <string name="contactUs_text">HEADQUARTERS\n1123 Main street\n11th Floor\nNew York, NY 11111\nTel: +1 2125551234</string>
     <string name="teamStatement_text">We brought together smart, talented thinkers and unleashed their combined creativity on the world.</string>
     <string name="solomon_text">Under Construction  ⚠️</string>
+    <string name="mohamed">Mohamed Ben</string>
+    <string name="robert">Robert Zarate-Morales</string>
+    <string name="solomon">Solomon Mistawest</string>
+    <string name="pilin">Pilin Chong</string>
 
 
 </resources>

@@ -1,25 +1,46 @@
 package org.pursuit.group_portfolio_hw_team_se7en;
 
 
+import android.content.res.Configuration;
+import android.content.res.Resources;
+import android.os.Build;
+import android.os.PersistableBundle;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.DisplayMetrics;
 import android.view.MenuItem;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 
+import java.util.Locale;
+
 
 public class MainActivity extends AppCompatActivity {
     public DrawerLayout drawerLayout;
+    private String language="en";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+//        if (savedInstanceState!=null){
+//            language=savedInstanceState.getString("lan");
+//            setApplocale(language);
+//
+//        }else {
+        Bundle bundle = getIntent().getExtras();
+        if (bundle != null) {
+            language = bundle.getString("lan");
+        }
+        setApplocale(language);
+//        }
 
         android.support.v7.widget.Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -30,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
 
         drawerLayout = findViewById(R.id.drawer_layout);
 
-        final NavigationView navigationView1 = findViewById(R.id.nav_view);
+        NavigationView navigationView1 = findViewById(R.id.nav_view);
 
         navigationView1.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
@@ -44,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
 
                     case R.id.nav_Mohamed:
                         Intent mohamedIntent = new Intent(getApplicationContext(), BenProfile.class);
+                        mohamedIntent.putExtra("lan",language);
                         startActivity(mohamedIntent);
                         drawerLayout.closeDrawers();
                         break;
@@ -64,6 +86,28 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             }
         });
+    }
+
+    @Override
+    public void onSaveInstanceState(Bundle outState, PersistableBundle outPersistentState) {
+        super.onSaveInstanceState(outState, outPersistentState);
+        outState.putString("lan",language);
+    }
+
+    @Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        if (savedInstanceState != null) {
+            language = savedInstanceState.getString("lan");
+            setApplocale(language);
+        }
+    }
+
+    private void setApplocale(String locleCode){
+        Resources resources=getResources();
+        DisplayMetrics displayMetrics=resources.getDisplayMetrics();
+        Configuration configuration=resources.getConfiguration();
+        configuration.setLocale(new Locale(locleCode));
+        resources.updateConfiguration(configuration,displayMetrics);
     }
 
     @Override
