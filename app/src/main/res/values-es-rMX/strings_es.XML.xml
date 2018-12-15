@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SE7EN</string>
+    <string name="title_activity_pilin_profile">Perfil de Pilin</string>
+    <string name="title_activity_ben_profile">Perfil de Ben</string>
+    <string name="title_activity_robert_profile">Perfil de Robert</string>
+    <string name="title_activity_pilin">PilinActivity</string>
+    <string name="title_activity_mohamed">MohamedActivity</string>
+    <string name="title_activity_soloman">SolomanActivity</string>
+    <string name="title_activity_robert">RobertActivity</string>
+    <string name="title_activity_solomon_profile">Perfil de Solomon</string>
+    <string name="mission_statement">Aprovechando eficientemente el tiempo, la habilidad, y el conocimiento, SE7EN busca aumentar las necesidades de las empresas y organizaciones hacia la creación de aplicaciones móviles sofisticadas y robustas.</string>
+
+
+    <string name="project1_ben">CTES</string>
+    <string name="project2_ben">Cajero de banco</string>
+    <string name="project3_ben">Mad-Libs</string>
+    <string name="bio_ben">Hola, soy Mohamed Ben. Tengo una licenciatura en información de la tecnología. Yo elegí aprender la desarrollo de aplicaciones para móviles Android porque quiero cumplir mis sueños a la realidad. Elegí aprender la desarrollo de web y tengo la intención de trabajar en una empresa tecnológica porque un espacio de trabajo estimulante es crucial para obtener más experiencia, mejorar mi conjunto de habilidades, probar cosas nuevas y aprender de los mejores. Por encima de todo, disfruto llevar múltiples sombreros. Con estos tipos de habilidades, conocimientos, y experiencias, tendré las herramientas para desarrollar mi propia empresa de soluciones de consultoría de TI / informática dentro de un plazo de 5 a 7 años. A muy largo plazo, espero obtener un Ph.D. en Ciencias de la Computación.</string>
+    <string name="project1_sw">INSERT GITHUB PROJECT1 NAME HERE</string>
+    <string name="project2_sw">INSERT GITHUB PROJECT2 NAME HERE</string>
+    <string name="project3_sw">INSERT GITHUB PROJECT3 NAME HERE</string>
+    <string name="bio_sw">INSERT BIO HERE</string>
+
+    <string name="robert_fullName_text">Robert Zarate-Morales\nDesarrollador Android</string>
+    <string name="project1_rz">Juego de Aventura</string>
+    <string name="project2_rz">Cajero de banco</string>
+    <string name="project3_rz">Mad-Libs</string>
+    <string name="bio_rz">¡Hola! Me llamo Roberto. Tengo experiencia en psicología pero siempre me ha fascinado la tecnología. Me gusta mucho cómo se ha integrado en la vida diaria y quiero convertirme en un desarrollador de Android móvil porque quiero que su uso sea más accesible para todos. Además, me encantan los idiomas y cómo construye puentes. Quiero aplicar el mismo concepto a los lenguajes informáticos para construir puentes entre las personas y la tecnología. Me gustaría tener una carrera profesional establecida dentro de la industria tecnológica como desarrollador y gerente de productos. En mi tiempo libre, a menudo se me puede encontrar comiendo zanahorias pequeñas y leyendo datos curiosos, por ejemplo: los plátanos están curvados porque crecen hacia el sol.\n\n
+Dato curioso sobre mí:\n
+Me encantan las playas pero odio la arena.</string>
+
+
+    <string name="project1_pc">Mad Libs</string>
+    <string name="project2_pc">Juego de Aventura | Java</string>
+    <string name="project3_pc">DroidCafe-Codelab4.2</string>
+    <string name="title_activity_test">Test</string>
+    <string name="mission">Misión</string>
+    <string name="pilin_fullName_text">Pilin Chong\nDesarrollador Android</string>
+    <string name="bio_pc">¡Hola a todos! Mi nombre es Pilin Chong. ¡Nací y me crié en Queens! Tengo 24 años. Todavía no he completado mi educación universitaria, pero me especialicé en Psicología y Filosofía, y tengo la intención de terminar un día. Ahora soy un estudiante en Pursuit, donde estoy comenzando mi viaje para convertirme en un desarrollador móvil. Siempre me ha gustado la tecnología y su impacto en el avance de la sociedad. Solo los teléfonos inteligentes han revolucionado la sociedad en menos de una década, con más de mil millones de usuarios en todo el mundo (¡y sigue subiendo!) y se están convirtiéndose en el portal al 60% del tráfico total de Internet. Todos estamos más conectados y tenemos más recursos disponibles para nosotros que nunca. Con este mercado en constante crecimiento y en constante cambio, me encanta la idea de desafiarme a mí mismo, ser adaptable y poder crear y compartir algo con lo que las personas de todo el mundo puedan interactuar. Creo que la codificación se convertirá en una habilidad esencial para aquellos que buscan el éxito. Estas son algunas de las razones por las que me siento atraído a convertirme en desarrollador. Espero algún día trabajar para una gran empresa de la que yo mismo disfrute usando sus productos y / o servicios, con la esperanza de mejorarlo para que muchos otros puedan disfrutarlo y descubran que mejora sus funciones diarias tanto como yo.
+\n
+\nDatos divertidos y pasatiempos:
+\n¡Me encantan los juegos de video! Me convertí en jugador a los 3 años cuando mi padre me compró una Nintendo 64, y desde entonces he amado a Nintendo. He tenido todas las consolas de juegos de Nintendo. Mortal Kombat 4, 007, Mario Party 2, StarFox 64, Diddy Kong Racing y Super Mario 64 fueron mis primeros juegos y desde entonces he definido mi amor por los juegos de géneros similares. Además, ¡Sega DreamCast es la consola de juegos más subestimada de todos los tiempos!
+
+Siempre he tenido un gran amor por las finanzas, la inversión y el comercio. De niño, por alguna razón, me encantaba ver a MSNBC. Pasé el examen nacional de evaluación de la educación financiera en la escuela secundaria con un 98. Pasé de $ 10k a $ 68k en 30 días en nuestro proyecto Mock Stock Market. Y hasta el día de hoy, sigo prestando mucha atención a las acciones, materias primas, metales, NASDAQ, S&amp;P 500, Cryptocurrencies y principalmente ForEx.
+
+Amo nadar. Sinceramente, no soy el mejor nadador. No soy Michael Phelps. Pero, el solo hecho de estar en el agua me lleva a un lugar de paz y euforia. ¡Culpo de ser piscis!
+
+Si solo pudiera comer un tipo de comida por el resto de mi vida, tendría que ser sushi. ¡AMO SUSHI / SASHIMI!\n\n
+
+Yo (solía) tocar guitarra y bajo eléctrico. A lo largo de la escuela primaria y secundaria, fui parte de la banda escolar. Asumí el papel de guitarra principal, hasta que aprendí el violín, lo que me llevó a convertirme en el bajista del grupo de élite de la escuela.
+
+Me encanta bailar. Siempre estuve ávido y actualizado con las últimas locuras de la danza. Participé en el festival anual de danza de mi escuela primaria / secundaria. En la escuela secundaria, junto con ganar la versión de America\'s Best Dance Crew en la división en solitario, fui miembro de la organización sin fines de lucro CityKids, donde creamos e interpretamos canciones (tengo una voz profunda, pero el rango es clave. Solía ​​cantar soprano), parodias y coreografías. Con la esperanza de inspirar a nuestros compañeros, estábamos recorriendo las escuelas secundarias en todo el área de la Ciudad de Nueva York, grabando videos musicales y actuando junto a celebridades prometedoras (Justin Bieber, Demi Lovato, Cody Simpson, Trevor Jackson solo para dejar algunos nombres xP) en Eventos como el US Open.
+
+Estoy muy interesado en la personalización del arte. Me encanta diseñar estuches para mis dispositivos. El programa Pimp My Ride solía ser mi favorito, y me guió en dirección a la cultura lowrider popular en el sur. Espero hacer algo similar a todos mis autos cuando tenga la libertad financiera para hacerlo. Eso también se traduce en mi gusto por la música, ya que también hago versiones cortadas y atornilladas de algunas de mis canciones favoritas. También creo archivos de pasos para Dance Dance Revolution para canciones más actuales y populares y algunos de mis favoritos personales.
+
+
+</string>
+    <string name="ben_fullName_text">Mohamed Ben Desarrollador Andriod</string>
+    <string name="newsTitle_text"><![CDATA[WE DESIGN & DEVELOP   STUNNING MOBILE APPS]]></string>
+    <string name="copyright_text">Seven Mobile Development © Copyright 2018–2019</string>
+    <string name="contactUs_text">OFICINA PRINCIPAL\n1123 Main street\n11th Floor\nNew York, NY 11111\nTel: +1 2125551234</string>
+    <string name="teamStatement_text">Reunimos a pensadores inteligentes y talentosos y desatamos su creatividad combinada en el mundo.</string>
+    <string name="solomon_text">Bajo Construcción  ⚠️</string>
+
+
+
+
+
+
+
+
+
+
+
+</resources>
