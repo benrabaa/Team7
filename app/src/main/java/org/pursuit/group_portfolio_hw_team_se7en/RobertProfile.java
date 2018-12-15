@@ -69,4 +69,15 @@ public class RobertProfile extends AppCompatActivity {
 
         }
     }
+    public void gitButtonRZ(View view) {
+        Uri gitUri = Uri.parse("https://github.com/rzmorales");
+        Intent intent = new Intent(Intent.ACTION_VIEW, gitUri);
+        startActivity(intent);
+    }
+    public void linkedButtonRZ(View view) {
+        Uri gitUri = Uri.parse("https://www.linkedin.com/in/robert-zarate-morales");
+        Intent intent = new Intent(Intent.ACTION_VIEW, gitUri);
+        startActivity(intent);
+    }
+
 }

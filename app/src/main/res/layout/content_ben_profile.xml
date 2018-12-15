@@ -22,8 +22,8 @@
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/circle_profile_ben"
-        android:layout_width="141dp"
-        android:layout_height="131dp"
+        android:layout_width="161dp"
+        android:layout_height="151dp"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="8dp"
         android:layout_marginTop="96dp"
@@ -41,8 +41,8 @@
 
     <TextView
         android:id="@+id/textname_ben"
-        android:layout_width="127dp"
-        android:layout_height="30dp"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
         android:layout_below="@id/circle_profile_ben"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
@@ -51,7 +51,7 @@
         android:text="@string/ben_fullName_text"
         android:textAlignment="center"
         android:textColor="@color/test"
-        android:textSize="10sp"
+        android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/circle_profile_ben"
         app:layout_constraintStart_toEndOf="@+id/circle_profile_ben"
@@ -59,8 +59,27 @@
 
     <Button
         android:id="@+id/git_button_ben"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textname_ben"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="4dp"
+        android:layout_weight="1"
+        android:background="@drawable/github"
+        android:onClick="gitButtonBen"
+        app:layout_constraintBottom_toTopOf="@+id/scroll_card"
+        app:layout_constraintEnd_toStartOf="@+id/linkedIn_button_ben"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textname_ben"
+        app:layout_constraintVertical_bias="0.476" />
+
+    <Button
+        android:id="@+id/linkedIn_button_ben"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
         android:layout_below="@+id/textname_ben"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
@@ -69,33 +88,12 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="4dp"
         android:layout_marginBottom="8dp"
-        android:background="@drawable/github"
-        app:layout_constraintBottom_toTopOf="@+id/scroll_card"
-        app:layout_constraintEnd_toStartOf="@+id/linkedIn_button_ben"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintHorizontal_chainStyle="packed"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textname_ben"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <Button
-        android:id="@+id/linkedIn_button_ben"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_below="@+id/textname_ben"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
-        android:layout_weight="1"
         android:background="@drawable/linkedin1"
-        app:layout_constraintBottom_toTopOf="@+id/scroll_card"
+        android:onClick="gitButtonBen"
+        app:layout_constraintBaseline_toBaselineOf="@+id/git_button_ben"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/git_button_ben"
-        app:layout_constraintTop_toBottomOf="@+id/textname_ben"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintStart_toEndOf="@+id/git_button_ben" />
 
     <android.support.design.card.MaterialCardView
         android:id="@+id/scroll_card"
